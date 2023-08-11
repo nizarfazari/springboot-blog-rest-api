@@ -3,9 +3,7 @@ package com.springboot.blog.service;
 
 import com.springboot.blog.payload.PostDTO;
 import com.springboot.blog.payload.PostResponse;
-import org.springframework.stereotype.Service;
 
-import java.util.List;
 
 public interface PostService {
     PostDTO createPost(PostDTO postDTO);
